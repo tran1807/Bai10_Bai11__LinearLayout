@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<-- Row 1 with 1 columns -->
+<TableRow
+android:id="@+id/tableRow1"
+android:layout_height="wrap_content"
+android:layout_width="fill_parent"
+android:gravity="center_horizontal"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView
+    android:id="@+id/tv11"
+    android:layout_height="1"
+    android:background="#00b9cd"
+    android:gravity="center"
+    android:padding="20dp"
+    android:text="Row 1 column 1"
+    android:textColor="#000000"
+
+</TableRow>
+<-- Row 3 with 2 columns -->
+<TableRow
+android:id="@+id/tableRow3"
+android:layout_height="wrap_content"
+android:layout_width="fill_parent"
+android:gravity="center_horizontal"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView
+    android:id="@+id/tv31"
+    android:layout_height="1"
+    android:background="#00b9cd"
+    android:gravity="center"
+    android:padding="20dp"
+    android:text="Row 3 column 1"
+    android:textColor="#000000"
+
+<TextView
+    android:id="@+id/tv32"
+    android:layout_height="1"
+    android:background="#58F5FF"
+    android:gravity="center"
+    android:padding="20dp"
+    android:text="Row 3 column 2"
+    android:textColor="#000000"
+</TableRow>
+<-- Row 3 with 2 columns -->
+<TableRow
+    android:id="@+id/tableRow3"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tv31"
+        android:layout_height="1"
+        android:background="#00b9cd"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Row 3 column 1"
+        android:textColor="#000000"
+
+    <TextView
+        android:id="@+id/tv32"
+        android:layout_height="1"
+        android:background="#58F5FF"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Row 3 column 2"
+        android:textColor="#000000"
+</TableRow>
